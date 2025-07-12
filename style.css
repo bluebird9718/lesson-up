@@ -1,0 +1,134 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+h2 {
+    color: #2e7d32;
+    border-bottom: 2px solid #a5d6a7;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+h3 {
+    color: #388e3c;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+ul, ol {
+    margin-left: 25px;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+strong {
+    color: #1b5e20;
+}
+
+.lesson-section {
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    cursor: pointer; /* Indicates it's clickable */
+    transition: background-color 0.3s ease;
+}
+
+.lesson-section:hover {
+    background-color: #dcedc8;
+}
+
+.lesson-title {
+    color: #1b5e20;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 2em;
+    padding-bottom: 0;
+}
+
+.lesson-meta {
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    padding-top: 0;
+}
+
+.collapsible-content.show {
+    max-height: 2000px; /* Adjust to be larger than content */
+    padding-top: 15px;
+    border-top: 1px dashed #c8e6c9;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed #ccc;
+    margin: 40px 0;
+}
